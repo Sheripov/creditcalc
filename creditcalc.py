@@ -2,9 +2,12 @@ from math import ceil
 print("Enter the credit principal:")
 credit_principal = int(input())
 
-print('What do you want to calculate?')
-print('type "m" - for count of months,')
-print('type "p" - for monthly payment:')
+print('
+What do you want to calculate?\n
+type "m" - for count of months,\n
+type "m" - for count of months,\n
+type "p" - for monthly payment:\n
+')
 choose = input()
 if choose.lower() == "m":
     print('Enter monthly payment:')
